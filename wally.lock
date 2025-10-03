@@ -3,7 +3,7 @@
 registry = "test"
 
 [[package]]
-name = "krakf/classbinder"
+name = "iseenhorses/classbinder"
 version = "0.1.0"
 dependencies = [["GoodSignal", "stravant/goodsignal@0.3.1"]]
 
