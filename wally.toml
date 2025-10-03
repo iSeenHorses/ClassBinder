@@ -1,5 +1,6 @@
 [package]
-name = "iseenhorses/classbinder"
+name = "iSeenHorses/ClassBinder"
+description = "A Roblox ClassBinder for binding instances to Lua classes"
 version = "0.1.0"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
