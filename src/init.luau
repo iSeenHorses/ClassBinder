@@ -41,7 +41,7 @@ function Binder:_bind(instance)
 		return
 	end
 
-	local success, classObject = pcall(self._classModule.new, self._classModule, instance)
+	local success, classObject = pcall(self._classModule.new, instance)
 
 	if not success then
 		warn(string.format("[%s] Bind failed for %s: %s", self._tagName, instance:GetFullName(), classObject))
