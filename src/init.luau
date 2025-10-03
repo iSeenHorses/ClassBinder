@@ -1,6 +1,6 @@
 local CollectionService = game:GetService("CollectionService")
 
-local GoodSignal = require(script.Parent.Parent.Packages.goodsignal)
+local GoodSignal = require(script.Parent.GoodSignal)
 
 local Binder = {}
 Binder.__index = Binder
